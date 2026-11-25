@@ -1,5 +1,27 @@
 {
   "说明": "本地合成演练资料",
-  "业务对象": "多格式样本的字段身份演进与兼容投影",
-  "记录": []
+  "业务对象": "工业数字孪生部件关系快照与装配版本",
+  "记录": [
+    {
+      "assembly": "A-1",
+      "parent": "frame",
+      "child": "motor-2",
+      "valid_from": "2026-10-07T00:00:00Z",
+      "geometry": "m2"
+    },
+    {
+      "assembly": "A-1",
+      "parent": "frame",
+      "child": "motor-3",
+      "valid_from": "2026-10-08T00:00:00Z",
+      "geometry": "m3"
+    },
+    {
+      "assembly": "A-2",
+      "parent": "frame",
+      "child": "motor-2",
+      "valid_from": "2026-10-07T00:00:00Z",
+      "geometry": "m2"
+    }
+  ]
 }
